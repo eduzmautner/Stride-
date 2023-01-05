@@ -1,0 +1,242 @@
+body{
+	font-family: 'Source Code Pro', sans-serif;
+	background-color: #f6f6f6;                                            
+}
+
+p{
+	font-size: 12pt;
+}
+
+h1{
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 128px;
+	line-height: 120px;
+	color: #f6f6f6;
+}
+
+h2{
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 16pt;
+	line-height: 16pt;
+	color: black;
+}
+
+a:link{color: black; text-decoration: none; background: none;}
+a:visited{color: black; text-decoration: none; background: none;}
+a:active{color: black; text-decoration: none; background: none;}
+a:hover{color: #f6f6f6; text-decoration: none; background: black;}
+/* line below serves as an 'exception'*/
+a.logolink:hover{color: none; text-decoration: none; background: none;}
+
+div.app_screens{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#navbar{
+	position: fixed;
+	top: 0px;
+}
+
+#mission-text{
+	font-weight: 300;
+	line-height: 65px;
+	color: black;
+}
+
+#app-text{
+	font-weight: 300;
+	line-height: 65px;
+	color: #1566E0;
+}
+
+#top-left-box-home{
+	background-color: #1566E0;
+	padding-right: 150px;
+	padding-left: 10px;
+}
+
+#top-left-box-mission{
+	background-color: #f6f6f6;
+	padding-right: 150px;
+	padding-left: 10px;
+}
+
+
+#vaporfly{
+	width: 100%;
+}
+
+#home-text{
+	font-weight: 300;
+}
+
+#YOUR_span{
+	font-weight: 700;
+}
+
+#App_navbar{
+	padding-left: 150px;
+}
+
+#download_icons{
+	padding-top: 7pt;
+}
+
+#gif{
+	transform: rotate(270deg);
+}
+
+#home_p{
+	padding-right: 50px;
+}
+
+#mission_p{
+	color: #1566E0;
+}
+
+#home_text_content{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-right: ;
+	margin-left: ;
+}
+
+
+.scroll-left1 {
+ height: 30px;	
+ overflow: hidden;
+ position: relative;
+ background: #f6f6f6;
+ color: #000000;
+ border: 1px solid black;
+}
+.scroll-left1 p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 30px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 10s linear infinite;
+ -webkit-animation: scroll-left 5s linear infinite;
+ animation: scroll-left 2s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+.scroll-left2 {
+ height: 30px;	
+ overflow: hidden;
+ position: relative;
+ background: #f6f6f6;
+ color: #000000;
+ border: 1px solid black;
+}
+.scroll-left2 p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 30px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 10s linear infinite;
+ -webkit-animation: scroll-left 5s linear infinite;
+ animation: scroll-left 5s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+.scroll-left3 {
+ height: 30px;	
+ overflow: hidden;
+ position: relative;
+ background: #f6f6f6;
+ color: #000000;
+ border: 1px solid black;
+}
+.scroll-left3 p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 30px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 10s linear infinite;
+ -webkit-animation: scroll-left 5s linear infinite;
+ animation: scroll-left 8s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
